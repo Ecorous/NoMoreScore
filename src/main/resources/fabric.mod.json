@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "nomorescore",
+  "version": "${version}",
+  "name": "No More Score",
+  "description": "Removes the useless 'Score' from the death screen",
+  "authors": [
+    "Exo"
+  ],
+  "contact": {
+    "website": "https://frogastudios.com",
+    "repo": "https://github.com/ExoPlant/NoMoreScore"
+  },
+  "license": "MIT",
+  "icon": "assets/nomorescore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.frogastudios.nomorescore.client.NoMoreScoreClient"
+    ],
+    "main": [
+      "com.frogastudios.nomorescore.NoMoreScore"
+    ]
+  },
+  "mixins": [
+    "nomorescore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
