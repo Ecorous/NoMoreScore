@@ -5,11 +5,11 @@
   "name": "No More Score",
   "description": "Removes the useless 'Score' from the death screen",
   "authors": [
-    "Exo"
+    "Ecorous"
   ],
   "contact": {
-    "website": "https://frogastudios.com",
-    "repo": "https://github.com/ExoPlant/NoMoreScore"
+    "website": "https://github.com/Ecorous/NoMoreScore",
+    "repo": "https://github.com/Ecorous/NoMoreScore"
   },
   "license": "MIT",
   "icon": "assets/nomorescore/icon.png",
